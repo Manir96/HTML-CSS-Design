@@ -92,3 +92,31 @@ personal section start
     width: 45%;
     float: right;
 }
+
+.project  a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+
+/*----------------------
+footer start
+---------------------- */
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.bottom-container a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.bottom-container p{
+    color: white;
+    margin-top: 20px;
+}
+
+/*----------------------
+footer end
+---------------------- */
