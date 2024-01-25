@@ -26,6 +26,11 @@ p{
     text-align: justify;
 }
 
+#logo1{
+    width: 60px;
+    box-sizing: border-box;
+    
+}
 .dotted-hr{
     border: dotted 6px white;
     border-bottom: none;

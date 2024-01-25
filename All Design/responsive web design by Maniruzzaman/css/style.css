@@ -441,19 +441,28 @@ header::before {
 }
 
 .bar .progress-line.css span {
-    width: 60%;
+    width: 80%;
 }
 
-.bar .progress-line.jquery span {
+.bar .progress-line.bootstrap span {
     width: 85%;
 }
 
 .bar .progress-line.python span {
-    width: 50%;
+    width: 80%;
+}
+.bar .progress-line.django span {
+    width: 85%;
+}
+.bar .progress-line.rest-api span {
+    width: 75%;
 }
 
 .bar .progress-line.mysql span {
-    width: 75%;
+    width: 85%;
+}
+.bar .progress-line.postgresql span {
+    width: 65%;
 }
 
 .progress-line span::before {
@@ -497,19 +506,28 @@ header::before {
 }
 
 .progress-line.css span::after {
-    content: "60%";
+    content: "80%";
 }
 
-.progress-line.jquery span::after {
+.progress-line.bootstrap span::after {
     content: "85%";
 }
 
 .progress-line.python span::after {
-    content: "50%";
+    content: "80%";
+}
+.progress-line.django span::after {
+    content: "85%";
+}
+.progress-line.rest-api span::after {
+    content: "75%";
 }
 
 .progress-line.mysql span::after {
-    content: "75%";
+    content: "85%";
+}
+.progress-line.postgresql span::after {
+    content: "65%";
 }
 
 /* =======PORTFOLIO======= */
@@ -883,6 +901,30 @@ footer ul li a:hover {
     .courses_container .course{
         margin-bottom: 1rem;
     }
+    #input-id{
+        width: 100%;
+        
+    }
+    #message{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #button-sub {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 15px;
+       
+    }
+    #button-reset {
+        width: 100%;
+        margin: 0;
+       
+    }
+    .contact-form .new-contact{
+        width: 100%;
+        justify-content: center;
+    }
+    
 
     .footer_container{
         grid-template-columns: 1fr;
@@ -893,4 +935,97 @@ footer ul li a:hover {
     .footer_social{
         justify-content: center;
     }
+   
 }
+
+/* achievement-contact starts from here  */
+.contact-form .new-contact {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.new-contact{
+    color: #29E9BC;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #29e9bc;
+    font-size: 1.1rem;
+    
+  }
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    border: 2px solid #29e9bc;
+    font-size: 1.1rem;
+  }
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #29e9bc; 
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    font-size: 1.1rem;
+
+   
+  }
+button[type=submit] {
+    
+    border: none;
+    border-radius: 12px;
+    background-color: #052d2f;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    width: 45%;
+    font-size: 1.5rem;
+}
+button[type=reset] {
+    
+    border: none;
+    border-radius: 12px;
+    background-color: #052d2f;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    width: 45%;
+    font-size: 1.5rem;
+    align-items: center;
+    
+    
+    
+}
+
+
+.contact_container {
+    display: flex;
+    margin: auto;
+    position: relative;
+    flex-direction: column;
+    padding: 1.6rem 1.8rem;
+    max-width: 40rem;
+    /* height: 800px; */
+    background-color: var(--black);
+    border-radius: 0.7rem;
+    box-shadow: 0.3rem 0.3rem 1.2rem rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    border: 1px solid #29e9bc;
+}
+
+
+
+
+
+
+/* achievement-contact ends here  */
